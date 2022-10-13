@@ -1,5 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+.nao {
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  text-align: center;
+  color: black;
+  border: 3px solid #9c2929;
+  background: #fac1c1;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.nao:click {
+  position: absolute;
+  top: 70%;
+  right: 30%;
+  text-align: center;
+  color: black;
+  border: 3px solid #1b8d2c;
+  background: #d9ffdf;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.sim {
+  position: absolute;
+  top: 70%;
+  right: 30%;
+  text-align: center;
+  color: black;
+  border: 3px solid #1b8d2c;
+  background: #d9ffdf;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
 body {
-    text-align: center;
-    justify-content: center;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(236,62,130,1) 35%, rgba(0,212,255,1) 100%); ;
+  background: #fa8989;
+  text-align: center;
+}
+
+.titulo {
+  font-family: 'Passions Conflict';
+  color: #e2e2e2;
+  font-size: 6rem;
+  margin: 0;
+  padding: 20px;
+}
+
+.heart {
+  font-size: 100px;
+  color: #e00;
+  animation: beat .25s infinite alternate;
+  transform-origin: center;
+}
+
+img {
+    width: 50%;
+}
+
+@keyframes beat{
+  to { transform: scale(1.4); }
 }
